@@ -2,7 +2,7 @@
 
 $sname = "localhost:3306";
 $uname = "root";
-$password = "";
+$password = "password";
 
 $db_name = "test";
 
@@ -12,3 +12,4 @@ if (!$conn) {
 	echo "Connection failed!";
 	exit();
 }
+?>
