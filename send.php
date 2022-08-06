@@ -31,3 +31,4 @@ if (isset($_POST['name']) && isset($_POST['message'])) {
 }else {
 	header("Location: index.html");
 }
+?>
